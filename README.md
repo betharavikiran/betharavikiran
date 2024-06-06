@@ -14,20 +14,20 @@ Languages/Software
 
 🔭 Web3 Research Findings
 
-- Decent Protocol findings - High Medium
-- reNFT Protocol 2 Findings (Report not public yet)
-- Curves Protocol 2 Findings (Report not public yet)
-- Centrifuge Protocol 3 Medium Findings Medium1
-- Dopex Protocol Findings High1 High2 Medium
-- Good Entry Protocol Findings Medium
-- Tangible Caviar 3 Findings (Report not public yet)
-- Moonwell Protocol Findings Medium1(selected for report)
-- PoolTogether Protocol Findings High
-- Franken Coin Findings Medium
+- Decent Protocol findings - [High](https://github.com/code-423n4/2024-01-decent-findings/issues/721) [Medium](https://github.com/code-423n4/2024-01-decent-findings/issues/590)
+- reNFT Protocol 2 Findings 
+- Curves Protocol 2 Findings 
+- Centrifuge Protocol 3 Medium Findings [Medium1](https://github.com/code-423n4/2023-09-centrifuge-findings/issues/146)
+- Dopex Protocol Findings [High1](https://github.com/code-423n4/2023-08-dopex-findings/issues/239) [High2](https://github.com/code-423n4/2023-08-dopex-findings/issues/1227) [Medium](https://github.com/code-423n4/2023-08-dopex-findings/issues/863)
+- Good Entry Protocol Findings [Medium](https://github.com/code-423n4/2023-08-goodentry-findings/issues/83)
+- Tangible Caviar 3 Findings 
+- Moonwell Protocol Findings [Medium1]((https://github.com/code-423n4/2023-07-moonwell-findings/issues/58))
+- PoolTogether Protocol Findings [High](https://github.com/code-423n4/2023-07-pooltogether-findings/issues/396)
+- Franken Coin Findings [Medium](https://github.com/code-423n4/2023-04-frankencoin-findings/issues/941)
 - Rubicon v2 2 Finding 
-- Telcoin Protocol Findings - High1 High2
-- USSD Protocol Findings - High1 High2 High3 Medium1
-- Footium Protocol Findings - Medium1 Medium2
+- Telcoin Protocol Findings - [High1](https://github.com/sherlock-audit/2024-01-telcoin-judging/issues/160) [High2](https://github.com/sherlock-audit/2024-01-telcoin-judging/issues/163)
+- USSD Protocol Findings - [High1](https://github.com/sherlock-audit/2023-05-USSD-judging/issues/17) [High2](https://github.com/sherlock-audit/2023-05-USSD-judging/issues/18) [High3](https://github.com/sherlock-audit/2023-05-USSD-judging/issues/23) [Medium1](https://github.com/sherlock-audit/2023-05-USSD-judging/issues/21)
+- Footium Protocol Findings - [Medium1](https://github.com/sherlock-audit/2023-04-footium-judging/issues/23) [Medium2](https://github.com/sherlock-audit/2023-04-footium-judging/issues/28)
 - Zerolend Protocol 1 Medium
 - Aviator
 - Unitas
