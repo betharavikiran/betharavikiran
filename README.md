@@ -33,6 +33,12 @@ Languages/Software
 - Unitas
 - Private Audit 1
 - Private Audit 2
+- Renzo
+- Unitas
+- Private Audit 3
+- Private Audit 4
+- Private Aduit 5
+
 
 ⚡ Certifications:
 
