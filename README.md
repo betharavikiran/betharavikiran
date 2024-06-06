@@ -33,6 +33,9 @@ Languages/Software
 - Unitas
 - Private Audit 1
 - Private Audit 2
+
+⚡ Certifications:
+
 <!--
 **betharavikiran/betharavikiran** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
