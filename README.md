@@ -30,7 +30,9 @@ Languages/Software
 - Footium Protocol Findings - Medium1 Medium2
 - Zerolend Protocol 1 Medium
 - Aviator
-
+- Unitas
+- Private Audit 1
+- Private Audit 2
 <!--
 **betharavikiran/betharavikiran** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
