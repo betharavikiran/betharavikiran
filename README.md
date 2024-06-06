@@ -1,9 +1,18 @@
-## Hi there 👋
+## About Me 👋
 
+I currently work as Web3 Security Researcher primarily on EVM based blockchains. I actively participate in public audits and bug bounty platforms, focusing on smart contracts components. I participatedin about 40+ audits for protocols in DeFi space like Liquidity staking, Borrow Lending, Stablecoin, yield farming and NFT Markets.
+
+Languages/Software
+
+![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white)![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white)[![Twitter](https://img.shields.io/badge/@ravikiran.web3-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/ravikiran.web3)<br>
+
+
+- 🔭 My findings
+- 
 <!--
 **betharavikiran/betharavikiran** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+
 
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
