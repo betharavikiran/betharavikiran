@@ -29,8 +29,8 @@ Languages/Software
 - USSD Protocol Findings - [High1](https://github.com/sherlock-audit/2023-05-USSD-judging/issues/17) [High2](https://github.com/sherlock-audit/2023-05-USSD-judging/issues/18) [High3](https://github.com/sherlock-audit/2023-05-USSD-judging/issues/23) [Medium1](https://github.com/sherlock-audit/2023-05-USSD-judging/issues/21)
 - Footium Protocol Findings - [Medium1](https://github.com/sherlock-audit/2023-04-footium-judging/issues/23) [Medium2](https://github.com/sherlock-audit/2023-04-footium-judging/issues/28)
 - Zerolend Protocol 1 Medium
-- Aviator
-- Unitas
+- Aviator [High](https://github.com/betharavikiran/betharavikiran/blob/main/Aviator_H1.md)
+- Unitas 
 - Private Audit 1
 - Private Audit 2
 - Renzo
