@@ -30,7 +30,7 @@ Languages/Software
 - Footium Protocol Findings - [Medium1](https://github.com/sherlock-audit/2023-04-footium-judging/issues/23) [Medium2](https://github.com/sherlock-audit/2023-04-footium-judging/issues/28)
 - Zerolend Protocol 1 Medium
 - BB1 [High](https://github.com/betharavikiran/betharavikiran/blob/main/Project_A_H1.md)
-- BB2 [High] (https://github.com/betharavikiran/betharavikiran/blob/main/Project_U_H1.md)
+- BB2 [High](https://github.com/betharavikiran/betharavikiran/blob/main/Project_U_H1.md)
 - Renzo
 - Private Audit 1
 - Private Audit 2
