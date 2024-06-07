@@ -29,12 +29,12 @@ Languages/Software
 - USSD Protocol Findings - [High1](https://github.com/sherlock-audit/2023-05-USSD-judging/issues/17) [High2](https://github.com/sherlock-audit/2023-05-USSD-judging/issues/18) [High3](https://github.com/sherlock-audit/2023-05-USSD-judging/issues/23) [Medium1](https://github.com/sherlock-audit/2023-05-USSD-judging/issues/21)
 - Footium Protocol Findings - [Medium1](https://github.com/sherlock-audit/2023-04-footium-judging/issues/23) [Medium2](https://github.com/sherlock-audit/2023-04-footium-judging/issues/28)
 - Zerolend Protocol 1 Medium
-- Aviator [High](https://github.com/betharavikiran/betharavikiran/blob/main/Aviator_H1.md)
-- Unitas 
+- BB1 [High](https://github.com/betharavikiran/betharavikiran/blob/main/Project_A_H1.md)
+- BB2 [High] (https://github.com/betharavikiran/betharavikiran/blob/main/Project_U_H1.md)
+- Renzo
 - Private Audit 1
 - Private Audit 2
-- Renzo
-- Unitas
+
 - Private Audit 3
 - Private Audit 4
 - Private Aduit 5
