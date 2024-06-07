@@ -31,7 +31,7 @@ Languages/Software
 - Zerolend Protocol 1 [L1](https://github.com/betharavikiran/betharavikiran/blob/main/zerolend_L1.md), [L2](https://github.com/betharavikiran/betharavikiran/blob/main/zerolend_l2.md), [L3](https://github.com/betharavikiran/betharavikiran/blob/main/zerolend_l3.md)
 - BB1 [High](https://github.com/betharavikiran/betharavikiran/blob/main/Project_A_H1.md)
 - BB2 [High](https://github.com/betharavikiran/betharavikiran/blob/main/Project_U_H1.md)
-- Renzo
+- Renzo [Medium1](https://github.com/betharavikiran/betharavikiran/blob/main/Renzo_m1.md)
 - Private Audit 1
 - Private Audit 2
 - Private Audit 3
