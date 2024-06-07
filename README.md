@@ -28,7 +28,7 @@ Languages/Software
 - Telcoin Protocol Findings - [High1](https://github.com/sherlock-audit/2024-01-telcoin-judging/issues/160) [High2](https://github.com/sherlock-audit/2024-01-telcoin-judging/issues/163)
 - USSD Protocol Findings - [High1](https://github.com/sherlock-audit/2023-05-USSD-judging/issues/17) [High2](https://github.com/sherlock-audit/2023-05-USSD-judging/issues/18) [High3](https://github.com/sherlock-audit/2023-05-USSD-judging/issues/23) [Medium1](https://github.com/sherlock-audit/2023-05-USSD-judging/issues/21)
 - Footium Protocol Findings - [Medium1](https://github.com/sherlock-audit/2023-04-footium-judging/issues/23) [Medium2](https://github.com/sherlock-audit/2023-04-footium-judging/issues/28)
-- Zerolend Protocol 1 Medium
+- Zerolend Protocol 1 [L1](https://github.com/betharavikiran/betharavikiran/blob/main/zerolend_L1.md), [L2](https://github.com/betharavikiran/betharavikiran/blob/main/zerolend_l2.md), [L3](https://github.com/betharavikiran/betharavikiran/blob/main/zerolend_l3.md)
 - BB1 [High](https://github.com/betharavikiran/betharavikiran/blob/main/Project_A_H1.md)
 - BB2 [High](https://github.com/betharavikiran/betharavikiran/blob/main/Project_U_H1.md)
 - Renzo
