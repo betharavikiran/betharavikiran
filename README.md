@@ -8,9 +8,9 @@ Languages/Software
 
 🏆 Key Achievements
 
-- 211 Rank on Code4Rena
-- 421 Rank on Sherlock
-- 2 time first place on Secure3
+- 200 Rank on [Code4Rena](https://code4rena.com/@ravikiranweb3) 
+- 421 Rank on [Sherlock](https://audits.sherlock.xyz/leaderboards)
+- 2 time first place on [Secure3](https://app.secure3.io/profile/ravikiran_web3)
 
 🔭 Web3 Research Findings
 
