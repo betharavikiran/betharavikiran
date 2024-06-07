@@ -42,7 +42,7 @@ Languages/Software
 
 ⚡ Certifications:
 - Expert Solidity - Encode Club [cert](https://opensea.io/assets/matic/0xdBf2138593aeC61d55d86E80b8ed86D7b9ba51F5/7769)
-- Smart Contract Auditing - Ekolance (cert)[https://collectors.poap.xyz/token/6664000]
+- Smart Contract Auditing - Ekolance [cert](https://collectors.poap.xyz/token/6664000)
 - EVM Blockchain Development & Security - Cyfrin
 - Secureum Bootcamp
 - Ethereum Bootcamp - Alchemy [cert](https://polygonscan.com/tx/0x3567e3bee9bd75fbdd114f44535aaa62370f679abddaa8a6da78b5432f3ab4f2)
