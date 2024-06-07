@@ -34,10 +34,10 @@ Languages/Software
 - Renzo
 - Private Audit 1
 - Private Audit 2
-
 - Private Audit 3
-- Private Audit 4
-- Private Aduit 5
+
+- Private Audit 4[H1](https://github.com/betharavikiran/betharavikiran/blob/main/IT1_H1.md)
+- Private Aduit 5[C1](https://github.com/betharavikiran/betharavikiran/blob/main/IT2_C1.md)
 
 
 ⚡ Certifications:
