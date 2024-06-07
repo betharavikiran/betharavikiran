@@ -21,7 +21,7 @@ Languages/Software
 - Dopex Protocol Findings [High1](https://github.com/code-423n4/2023-08-dopex-findings/issues/239) [High2](https://github.com/code-423n4/2023-08-dopex-findings/issues/1227) [Medium](https://github.com/code-423n4/2023-08-dopex-findings/issues/863)
 - Good Entry Protocol Findings [Medium](https://github.com/code-423n4/2023-08-goodentry-findings/issues/83)
 - Tangible Caviar 3 Findings 
-- Moonwell Protocol Findings [Medium1]((https://github.com/code-423n4/2023-07-moonwell-findings/issues/58))
+- Moonwell Protocol Findings [Medium1](https://github.com/code-423n4/023-07-moonwell-findings/issues/58)
 - PoolTogether Protocol Findings [High](https://github.com/code-423n4/2023-07-pooltogether-findings/issues/396)
 - Franken Coin Findings [Medium](https://github.com/code-423n4/2023-04-frankencoin-findings/issues/941)
 - Rubicon v2 2 Finding 
