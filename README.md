@@ -41,6 +41,29 @@ Languages/Software
 
 
 ⚡ Certifications:
+- Expert Solidity - Encode Club [cert](https://opensea.io/assets/matic/0xdBf2138593aeC61d55d86E80b8ed86D7b9ba51F5/7769)
+- Smart Contract Auditing - Ekolance (cert)[https://collectors.poap.xyz/token/6664000]
+- EVM Blockchain Development & Security - Cyfrin
+- Secureum Bootcamp
+- Ethereum Bootcamp - Alchemy [cert](https://polygonscan.com/tx/0x3567e3bee9bd75fbdd114f44535aaa62370f679abddaa8a6da78b5432f3ab4f2)
+- Eth Proof: Intermediate EVM [cert](https://solscan.io/token/EpPNczymsvFYkirJde35epgq4G3d3jzdadcEvxMbQ9i3)
+- Blockchain Development Industry Training - Brainnest
+- Certified DAO Expert [cert](https://www.credential.net/d8bb5907-b069-4f57-938e-b06814f7a177#gs%20.h6t06s)
+- Developing On Polkadot with Substrate - Blockchain Training Alliance
+- Ethereum Development Course - Blockchain at Berkeley cert
+- Blockchain Platforms - University at Buffalo cert
+- Smart Contracts - University at Buffalo cert
+- Decentralised Applications - University at Buffalo cert
+- Decentralised Finance (DeFi) Primitives - Duke University cert
+
+👯 Publications
+- [Diamond Proxy pattern](https://ravikiran-web3.hashnode.dev/diamond-proxy-pattern)
+- [Smart Contract Audits - understanding system context](https://ravikiran-web3.hashnode.dev/smart-contract-audits-understanding-system-context)
+- [Thinking Web3 usercases](https://ravikiran-web3.hashnode.dev/thinking-web3-use-cases)
+- [Smart contracts for Business](https://ravikiran-web3.hashnode.dev/smart-contracts-for-business)
+- [Decompiling Bytecode](https://techfund.jp/media/decompiling-bytecode)
+- [Assembling from Bytecode](https://techfund.jp/media/assembling-bytecode)
+- [Ethereum Mass Adoption](https://techfund.jp/media/eth-mass-adoption)
 
 <!--
 **betharavikiran/betharavikiran** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
