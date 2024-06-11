@@ -39,7 +39,7 @@ Languages/Software
 - Private Audit 4[H1](https://github.com/betharavikiran/betharavikiran/blob/main/IT1_H1.md)
 - Private Aduit 5[C1](https://github.com/betharavikiran/betharavikiran/blob/main/IT2_C1.md)
 
-- ThorChain [M1] (https://github.com/betharavikiran/betharavikiran/blob/main/thor_M1.md)
+- ThorChain [M1](https://github.com/betharavikiran/betharavikiran/blob/main/thor_M1.md)
 
 ⚡ Certifications:
 - Expert Solidity - Encode Club [cert](https://opensea.io/assets/matic/0xdBf2138593aeC61d55d86E80b8ed86D7b9ba51F5/7769)
