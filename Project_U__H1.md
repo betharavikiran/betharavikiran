@@ -57,3 +57,47 @@ eligible for.
 4) The distributionSupplierIndex for the iToken and Attacker account should be 0 as by default.
 5) once all the 4 conditions are true, call updateReward() function on the RewardDistributor/V3 contract with below parameters.
 updateReward(0xAAA, 0xATTACKER,false)
+
+
+
+```
+   
+    function _updateRewardX(
+        address _iToken,
+        address _account,
+        bool _isBorrowX
+    ) internal {
+        require(_account != address(0), "Invalid account address!");
+        require(controller.hasiToken(_iToken), "Token has not been listed");
+
+        uint256 _iTokenIndex;
+        uint256 _accountIndex;
+        uint256 _accountBalance;
+        if (_isBorrowX) {
+            _iTokenIndex = distributionBorrowState[_iToken].index;
+            _accountIndex = distributionBorrowerIndex[_iToken][_account];
+            _accountBalance = IiToken(_iToken)
+                .borrowBalanceStored(_account)
+                .rdiv(IiToken(_iToken).borrowIndex());
+
+            // Update the account state to date
+            distributionBorrowerIndex[_iToken][_account] = _iTokenIndex;
+        } else {
+==>         _iTokenIndex = distributionSupplyState[_iToken].index;
+            _accountIndex = distributionSupplierIndex[_iToken][_account];
+            _accountBalance = IERC20Upgradeable(_iToken).balanceOf(_account);
+
+            // Update the account state to date
+            distributionSupplierIndex[_iToken][_account] = _iTokenIndex;
+        }
+
+        uint256 _deltaIndex = _iTokenIndex.sub(_accountIndex);
+        uint256 _amount = _accountBalance.rmul(_deltaIndex);
+
+        if (_amount > 0) {
+            reward[_account] = reward[_account].add(_amount);
+
+            emit RewardDistributed(_iToken, _account, _amount, _accountIndex);
+        }
+    }
+```
