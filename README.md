@@ -38,7 +38,7 @@ Languages/Software
 
 - Private Audit 4[H1](https://github.com/betharavikiran/betharavikiran/blob/main/IT1_H1.md)
 - Private Aduit 5[C1](https://github.com/betharavikiran/betharavikiran/blob/main/IT2_C1.md)
-- Private Aduit 6[H1](https://github.com/betharavikiran/betharavikiran/blob/main/project_dn_h1.md)
+
 <!--
 - ThorChain [M1](https://github.com/betharavikiran/betharavikiran/blob/main/thor_M1.md) [M2](https://github.com/betharavikiran/betharavikiran/blob/main/thor_M2.md) 
 -->
