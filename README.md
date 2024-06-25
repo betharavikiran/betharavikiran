@@ -59,6 +59,7 @@ Languages/Software
 - Smart Contracts - University at Buffalo cert
 - Decentralised Applications - University at Buffalo cert
 - Decentralised Finance (DeFi) Primitives - Duke University cert
+- Build on Polkadot: W3transfer Educate [cert](https://opensea.io/assets/matic/0xdbf2138593aec61d55d86e80b8ed86d7b9ba51f5/11636)
 
 👯 Publications
 - [Diamond Proxy pattern](https://ravikiran-web3.hashnode.dev/diamond-proxy-pattern)
