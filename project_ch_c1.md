@@ -1,54 +1,72 @@
-### Slashing should impact the price of XXXStable to that extent of collateral lost, but instead losses will be passed to the protocol
+### Burn function is not effective to make the correction in price
 
-**description**: When a slash occurs in `Beacon layer` due to violation by a validator, a portion of the LST tokens are removed reduction in the total balance for the account. Since `LST tokens` is the collateral against which the XXXStable minted and is in circulation, to hold the peg, the `XXXStable` to that extent should be burned/removed from circulation to honour the collateral ratio.
+description: When the price of Eth changes, it impacts the value of collateral held by the XXX Protocol and also the total number of StableCoin in circulation. If the collateral value falls, the protocol will have to burn StableCoin equivalent amount of fall to keep the peg.
 
-SInce at the time of deposits, the `XXXStable` are minted in favour of the original depositor, the protocol does not have any control on those XXXStable. So, the concern is whose 'XXXStableUSC' should be burnt.
+  function burn(uint256 amount) external whenBurnNotPaused nonReentrant onlyWhenMintableOrBurnable returns (uint256) {
+    uint256 ethPrice = priceFeedAggregator.peek(WETH);
 
-```solidity
-   function mint( // public function
-    address token,
-    uint256 amount
-  ) external whenMintNotPaused nonReentrant onlyWhenMintableOrBurnable returns (uint256) {
-   ....
-    return _mint(amountAfterFee, token);
+    stableCoin.safeTransferFrom(msg.sender, address(this), amount);
+    amount -= (amount * mintBurnFee) / MAX_FEE;
+    stableCoin.burn(amount);
+
+    uint256 ethAmountToRedeem = Math.mulDiv(amount, USC_TARGET_PRICE, ethPrice);
+
+    reserveHolder.redeem(ethAmountToRedeem);
+    IERC20(WETH).safeTransfer(msg.sender, ethAmountToRedeem);
+
+    emit Burn(msg.sender, amount, ethAmountToRedeem);
+    return ethAmountToRedeem;
   }
+Let's demonstrate with an example.
 
-  function _mint(uint256 amount, address token) private returns (uint256) { // internal function
-   ...
-    XXXStable.mint(msg.sender, XXXStableAmountToMint);
-    return XXXStableAmountToMint;
-  }
-```
-As there is no option to burn across holders of `XXXStable`, the approach is to devalue the `XXXStable` in circulation to the extent of collateral lost via slashing.  While the underlying collateral was slashed, it **will not** impact the XXXStable price as the reserve value is computed based on state variable `totalDeposited` and not the actual balance after slashing. Refer the how the `totalReserveValue` is computed by summing up the `reserve` across LSTs. Hence, slash does not impact the `XXXStable' price.
+ 	Fee rate	1.00%	 
+ 	 	 	 
+Events 	Collateral	ETH/USD Price	Stable coin
+ 	1000	2000	2000000
+Eth Price change	1900000	1900	 
+Tokens to burn for price correction	 	 	100000
+ 	 	 	 
+Transaction to burn 100000	 	 	 
+Burning Stablecoin after fee adjustment	 	 	99000
+(1 % Fee)	 	 	 
+New Stable coin supply	 	 	1901000
+ 	 	 	 
+Ethereum to Redeem	52.1052631578947	 	 
+New balance	947.894736842105	 	1901000
+New Value	1801000	 	1901000
+As mentioned in the table, there is a reserve of 1000 Eth tokens and Eth price is 2000 Stablecoin.
 
-Note the below reserve computation for each LST is based on `totalDeposited` state variables.
+Hence, total collateral is 1000 * 2000 = 2000000. With USC pegged to 1 USD, there should be 2000000 Stablecoin tokens in circulation.
 
-**RebasingAdapter**:
+As the Eth price falls to 1900, the total collateral held by XXXX protocol is 1900000. That means 100000 Stablecoin tokens should be burnt to maintain the peg.
 
-```solidity
-   function getReserveValue() external view returns (uint256) {
-    uint256 ethPrice = priceFeedAggregator.peek(ExternalContractAddresses.WETH);
-===> uint256 totalDepositedValue = Math.mulDiv(totalDeposited, ethPrice, 1e18);
-    return totalDepositedValue;
-  }
-```
-**ReserveHolderV2**:
-```solidity
-   function getReserveValue() public view returns (uint256) {
-    uint256 totalReserveValue;
+When 100000 Stablecoin tokens are burnt, it will use 1900 as the Eth price.
 
-    for (uint256 i = 0; i < reserveAssets.length; i++) {
-      totalReserveValue += reserveAdapters[reserveAssets[i]].getReserveValue();
-    }
+a) Since XXX protocol is charging 1% fee, instead of burning 100000 Stablecoin tokens, it will only burn 99000 Stablecoin tokens. So, after burning, the Stablecoin token supply will be 1901000. It is more by 1000 Stablecoin that the protocol kept as fee.
 
-    return totalReserveValue;
-  }
-```
+[Note] This is already more than 1900 * 1000 ETH tokens.
 
-Because of the above, the `XXXStable` price will not have any impact and as XXXStable is redeemed by individual uses, the slash losses will eventually be passed on to the protocol.
+b) The burn logic takes 99000 Stablecoin and computes the ETH to redeem. This amount is (99000 * 1)/1900 = 52.1052631578947. This much Eth will be redeemed from collateral and sent back to the account burning the Stablecoin.
 
-**impact**: any slash related loss will be passed to the protocol.
+[Note] This means, now the ETH reserves are not 1000 any more, but instead they are 1000 - 52.1052631578947= 947.894736842105 Eth.
 
-**recommendation**: 
-When the `totalDeposited` falls below the `balance`, resetting the `totalDeposited` to `new balance` will help.
-Should consider if impact on new deposits or redemptions if any.
+c) Post the burn transactions, if we check the new valuation of collateral vs Stablecoin supply, it will be
+
+Total Collateral = 947.894736842105 * 1900 = 1801000
+Stablecoin in circulation = 2000000 - 99000 = 1901000
+
+Post the burn, the collateral is still not sufficient to cover the Stablecoin in supply to hold the peg.
+
+Lets compare the Stablecoin price before and after.
+
+Before Burn:
+Total Collateral Value/ Stablecoin in Circulation = 1900000/ 2000000 = 0.95
+
+After Burn:
+Total Collateral Value/ Stablecoin in Circulation = 1801000/ 1901000 = 0.94739611
+
+Infact, it further deteriorates after burning the Stablecoin tokens.
+
+impact: Stablecoin moves further away from the peg.
+
+recommendation(s):
