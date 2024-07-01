@@ -9,7 +9,7 @@ description: When the price of Eth changes, it impacts the value of collateral h
     amount -= (amount * mintBurnFee) / MAX_FEE;
     stableCoin.burn(amount);
 
-    uint256 ethAmountToRedeem = Math.mulDiv(amount, USC_TARGET_PRICE, ethPrice);
+    uint256 ethAmountToRedeem = Math.mulDiv(amount, STABLECOIN_TARGET_PRICE, ethPrice);
 
     reserveHolder.redeem(ethAmountToRedeem);
     IERC20(WETH).safeTransfer(msg.sender, ethAmountToRedeem);
@@ -36,7 +36,7 @@ New balance	947.894736842105	 	1901000
 New Value	1801000	 	1901000
 As mentioned in the table, there is a reserve of 1000 Eth tokens and Eth price is 2000 Stablecoin.
 
-Hence, total collateral is 1000 * 2000 = 2000000. With USC pegged to 1 USD, there should be 2000000 Stablecoin tokens in circulation.
+Hence, total collateral is 1000 * 2000 = 2000000. With Stablecoin pegged to 1 USD, there should be 2000000 Stablecoin tokens in circulation.
 
 As the Eth price falls to 1900, the total collateral held by XXXX protocol is 1900000. That means 100000 Stablecoin tokens should be burnt to maintain the peg.
 
