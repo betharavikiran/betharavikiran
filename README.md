@@ -30,9 +30,10 @@ Languages/Software
 - Footium Protocol Findings - [Medium1](https://github.com/sherlock-audit/2023-04-footium-judging/issues/23) [Medium2](https://github.com/sherlock-audit/2023-04-footium-judging/issues/28)
 - Zerolend Protocol 1 [L1](https://github.com/betharavikiran/betharavikiran/blob/main/zerolend_L1.md), [L2](https://github.com/betharavikiran/betharavikiran/blob/main/zerolend_l2.md), [L3](https://github.com/betharavikiran/betharavikiran/blob/main/zerolend_l3.md)
 - Thorchain [M1](https://github.com/code-423n4/2024-06-thorchain-findings/issues/44)
+- Renzo [Medium1](https://github.com/betharavikiran/betharavikiran/blob/main/Renzo_m1.md)
+- Predy [Medium1]
 - BB1 [High](https://github.com/betharavikiran/betharavikiran/blob/main/Project_A_H1.md)
 - BB2 [High](https://github.com/betharavikiran/betharavikiran/blob/main/Project_U__H1.md)
-- Renzo [Medium1](https://github.com/betharavikiran/betharavikiran/blob/main/Renzo_m1.md)
 - Private Audit 1 [Medium1](https://github.com/betharavikiran/betharavikiran/blob/main/Project_AB_M1.md)  [Medium2](https://github.com/betharavikiran/betharavikiran/blob/main/Project_AB_M2.md)
 - Private Audit 2 [H1](https://github.com/betharavikiran/betharavikiran/blob/main/Project_MIT_H1.md) [H2](https://github.com/betharavikiran/betharavikiran/blob/main/Project_MIT_H2.md) [H3](https://github.com/betharavikiran/betharavikiran/blob/main/Project_MIT_H3.md)
 - Private Audit 3 [H1](https://github.com/betharavikiran/betharavikiran/blob/main/Project_U_H1.md)
