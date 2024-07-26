@@ -68,6 +68,7 @@ Languages/Software
 - Decentralised Applications - University at Buffalo cert
 - Decentralised Finance (DeFi) Primitives - Duke University cert
 - Build on Polkadot: W3transfer Educate [cert](https://opensea.io/assets/matic/0xdbf2138593aec61d55d86e80b8ed86d7b9ba51f5/11636)
+- Cybersecurity for Blockchain from Ground Up- EC Council [cert](https://codered.eccouncil.org/certificate/5c07c9ae-00e5-43b6-8af2-00f9c02c1ce3)
 
 👯 Publications
 - [Diamond Proxy pattern](https://ravikiran-web3.hashnode.dev/diamond-proxy-pattern)
