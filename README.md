@@ -41,6 +41,7 @@ Languages/Software
 - Traitforge [Medium](https://github.com/code-423n4/2024-07-traitforge-findings/issues/564) [Medium](https://github.com/code-423n4/2024-07-traitforge-findings/issues/212)
 - Phi [Medium](https://github.com/code-423n4/2024-08-phi-findings/issues/11) [Medium](https://github.com/code-423n4/2024-08-phi-findings/issues/109)
 - Sentiment V2 [Medium](https://github.com/sherlock-audit/2024-08-sentiment-v2-judging/issues/100)
+- Cork Protocol [Medium](https://github.com/sherlock-audit/2024-08-cork-protocol-judging/issues/1)
 - BB1 [High](https://github.com/betharavikiran/betharavikiran/blob/main/Project_A_H1.md)
 - BB2 [High](https://github.com/betharavikiran/betharavikiran/blob/main/Project_U__H1.md)
 - Private Audit 1 [Medium1](https://github.com/betharavikiran/betharavikiran/blob/main/Project_AB_M1.md)  [Medium2](https://github.com/betharavikiran/betharavikiran/blob/main/Project_AB_M2.md)
