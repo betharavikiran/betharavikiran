@@ -37,8 +37,7 @@ Languages/Software
 - Thorchain [M1](https://github.com/code-423n4/2024-06-thorchain-findings/issues/44)
 - Renzo [Medium1](https://github.com/betharavikiran/betharavikiran/blob/main/Renzo_m1.md)
 - Predy [Medium1](https://github.com/code-423n4/2024-05-predy-findings/issues/134)-->
-<!-- - Munchables [High](https://github.com/code-423n4/2024-07-munchables-findings/issues/198)
--->
+- Munchables [High](https://github.com/code-423n4/2024-07-munchables-findings/issues/198)
 - Traitforge [Medium](https://github.com/code-423n4/2024-07-traitforge-findings/issues/564) [Medium](https://github.com/code-423n4/2024-07-traitforge-findings/issues/212)
 - Phi [Medium](https://github.com/code-423n4/2024-08-phi-findings/issues/11) [Medium](https://github.com/code-423n4/2024-08-phi-findings/issues/109)
 - Sentiment V2 [Medium](https://github.com/sherlock-audit/2024-08-sentiment-v2-judging/issues/100)
